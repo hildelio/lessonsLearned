@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(253,251,251);
+    border: 5px solid red;
+
+}
+
+header {
+    display: flex;
+    background-color: #008000;
+}
+
