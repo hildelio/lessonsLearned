@@ -3,15 +3,24 @@
   padding: 0;
 
 }
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
-.menu-container {
-  display: flex;
+header#cabecalho {
+  width: 100%;
+  position: fixed;
+  top: 0;
   background-color: #008000;
   color: white;
   padding: 20px 10px;
+}
+
+#titulo {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 20px 0px;
 }
 
 .menu {
@@ -27,12 +36,40 @@ body {
   color: white;
 }
 
-.links li{
+.links li {
   list-style: none;
 }
 
-.tittle {
+.fotonome {
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+img {
+  margin-top: 150px;
+  height: 200px;
+  width: 200px;
+}
+
+.licoes {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  justify-content: space-between;
+  width: 20%;
+}
+.listas {
   display: flex;
   justify-content: space-around;
-  padding: 10px 0px 20px 0px;
+}
+
+#titulo2 {
+  display: flex;
+  justify-content:flex-start;
+
+}
+#licoes_aprendidas {
+  display: flex;
+  flex-direction: column;
 }
