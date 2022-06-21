@@ -12,7 +12,7 @@ header#cabecalho {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #008000;
+  background-color: green;
   color: white;
   padding: 20px 10px;
 }
@@ -21,6 +21,8 @@ header#cabecalho {
   display: flex;
   justify-content: space-around;
   padding: 10px 0px 20px 0px;
+  font-size: larger;
+  font-family: 'Potta One', cursive;
 }
 
 .menu {
@@ -38,6 +40,8 @@ header#cabecalho {
 
 .links li {
   list-style: none;
+  font-family: 'Potta One', cursive;
+
 }
 
 .fotonome {
@@ -69,7 +73,26 @@ img {
   justify-content:flex-start;
 
 }
+
 #licoes_aprendidas {
   display: flex;
   flex-direction: column;
 }
+
+.textos {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-style: dashed;
+  line-height: normal;
+}
+
+#rodape {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
